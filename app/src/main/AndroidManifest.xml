@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Clone_tik_tok">
         <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
